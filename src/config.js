@@ -1,5 +1,4 @@
-import { Config, CognitoIdentityCredentials } from 'aws-sdk'
-
+import { Config, CognitoIdentityCredentials } from 'aws-sdk/global'
 import { CognitoUserPool } from 'amazon-cognito-identity-js'
 
 let appConfig
